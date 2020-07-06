@@ -1,0 +1,25 @@
+commit 247f6060855ae2f5a75bf5723c40602f701abb17
+Author: Glossawy <4606234+Glossawy@users.noreply.github.com>
+Date:   Tue Jul 14 01:16:22 2015 -0400
+
+    Stripping Installer Down. Now uses minimal RoboLib classes.
+    
+    Because this was originally part of RoboLib it used a few classes from it. In the future I would like to decouple them entirely. For now, I have modified some dependencies (RobotExecutionException/etc. -> RuntimeReflectionException/etc.) and removed classes and parts of classes (including Collection Convenience classes.
+
+commit 546a1d9a500824324491fcb7540ab5b833b3fc9b
+Author: Glossawy <4606234+Glossawy@users.noreply.github.com>
+Date:   Sun Jul 12 01:51:08 2015 -0400
+
+    Fixup
+
+commit e99baa7413609a07a2fb11fca596605da03862b6
+Author: Glossawy <4606234+Glossawy@users.noreply.github.com>
+Date:   Sun Jul 12 01:44:19 2015 -0400
+
+    Initial Commit of RoboLib Installer -- dependencies file edition!
+
+commit 51e9737ad112d0a70e90bcf5ff071d35bd836ad3
+Author: Glossawy <4606234+Glossawy@users.noreply.github.com>
+Date:   Sun Jul 12 01:41:14 2015 -0400
+
+    Initial commit
